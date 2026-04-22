@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Peter's Portfolio</title>
+    <link rel="stylesheet" href="CSS/style.css">
+</head>
+
+<body>
+    <!--Header part-->
+    <header class="header">
+        <a href="#" class="logo"><img src="images/peterLogo.png" alt="logo"></a>
+        <div id="humIcon"><img src="images/humburger.png" alt="collapseIcon"></div>
+        <nav class="navbar">
+            <a href="#home" class="active">Home</a>
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <!--Home Section part  -->
+    <section class="home" id="home">
+        <div class="homeContent">
+            <h1>Hello, I'm <span class="spn">Petros</span></h1>
+            <div class="textAnimate">
+                <h3><span style="--i: 3" dataText="FrontEnd"> FrontEnd </span>
+                    <span span style="--i: 2;" dataText="BackEnd"> BackEnd </span>
+                    <span class="spn" span style="--i: 1;" dataText="FullStack"> FullStack </span>
+                    Developer
+                </h3>
+            </div>
+            <p>
+                I enjoy exploring <span class="spn">new</span> technologies and <br> enhancing my <span
+                    class="spn">skills</span>,<br>
+                I create dynamic and responsive<br>
+                websites to do business do <span class="spn">better</span> online.
+            </p>
+            <div class="btnBox">
+                <a href="#about" class="btn">Find Out More</a>
+            </div>
+        </div>
+
+        <div class="homeSci">
+            <a href="#"><img src="images/telegram.png" alt="#" class="sci"></a>
+            <a href="#"><img src="images/gmail.png" alt="#" class="sci"></a>
+            <a href="#"><img src="images/github.png" alt="#" class="sci"></a>
+            <a href="#"><img src="images/facebook.png" alt="#" class="sci"></a>
+        </div>
+
+        <div class="snowSkills">
+            <img src="images/Skills/java.png" alt="#">
+            <img src="images/Skills/html5.png" alt="#">
+            <img src="images/Skills/javascript.png" alt="#">
+            <img src="images/Skills/python.png" alt="#">
+            <img src="images/Skills/nodejs.png" alt="#">
+            <img src="images/Skills/c-plus-plus.png" alt="#">
+            <img src="images/Skills/react.png" alt="#">
+            <img src="images/Skills/css3.png" alt="#">
+            <img src="images/Skills/php.png" alt="#">
+        </div>
+
+        <div class="homeImgHover"></div>
+
+    </section>
+
+    <!-- About Me -->
+    <section class="about" id="about">
+        <div id="aboutImg">
+            <img src="images/About.png" alt="">
+        </div>
+        <div class="aboutContent">
+            <h1>About <span class="spn">Me</span></h1>
+            <p>My name is <span class="spn">petros sisay</span>. I am a third year Software Engineering student at Adama
+                Science and Technology
+                University ( <span class="spn">ASTU</span> ) .I am a web developer passionate about experimenting with
+                new skills and creativity. I am always
+                looking to explore and <span class="spn">learn new</span> development skills, and also With knowledge of
+                both client-side and server-side technologies, I can manage projects independently and understand how
+                every part of an application connects together.
+                I enjoy solving complex problems, building scalable systems, and turning ideas into complete digital
+                products.
+                Programming is not just my profession, It is my passion.</p>
+            <div class="btnBox .Btns">
+                <a href="#skills" class="btn">More!!</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills page -->
+    <section class="skills" id="skills">
+        <h2>My <span class="spn">Skills</span></h2>
+        <p class="skillsDescription">
+            Website creation with <span class="spn"> HTML, CSS, JavaScript</span>.
+            Professional websites with<span class="spn"> React, Node JS, and lots of Creativity</span>.
+        </p>
+        <div class="skillsContainer">
+            <div class="skillsInfo">
+                <ul class="langSkills1">
+                    <li class="langSkills"><img style="background-color: orangered;" src="images/Skills/html5.png"
+                            alt="#">
+                        HTML
+                    </li>
+                    <li class="langSkills"><img style="background-color: blue;" src="images/Skills/css3.png" alt="#">
+                        CSS
+                    </li>
+                    <li class="langSkills"><img style="background-color: yellow;" src="images/Skills/javascript.png"
+                            alt="#"> JavaScript</li>
+                    <li class="langSkills"><img style="background-color: skyblue;" src="images/Skills/react.png"
+                            alt="#">
+                        React.js</li>
+                </ul>
+                <p class="description">
+                    I focus on creating responsive, user-friendly, and visually appealing interfaces.I build secure and
+                    scalable backend systems using server-side technologies and databases such as MySQL.My priority is
+                    performance, security, and clean architecture.
+                </p>
+                <ul class="langSkills1">
+                    <li class="langSkills"><img style="background-color: blue;" src="images/Skills/python.png" alt="#">
+                        Python</li>
+                    <li class="langSkills"><img style="background-color: skyblue;" src="images/Skills/c-plus-plus.png"
+                            alt="#"> C++</li>
+                    <li class="langSkills"><img style="background-color: red;" src="images/Skills/java.png" alt="#">
+                        Java
+                    </li>
+                    <li class="langSkills"><img style="background-color: green;" src="images/Skills/nodejs.png" alt="#">
+                        Node.js</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects page -->
+    <section id="projects">
+
+        <h2 class="projectTitle">Projects</h2>
+        <div class="projectContainer">
+            <div class="projectWrapper">
+                <div class="projectWrapperHolder">
+                    <a href="https://melodic-hummingbird-fdca26.netlify.app/" id="sliderImg1" title="Apple Web-Site"
+                        target="blank">
+                        <h2>apple web-site</h2>
+                    </a>
+                    <a href="https://frolicking-entremet-b5f6f4.netlify.app/" id="sliderImg2"
+                        title="Puppy lovers Web-page" target="blank">
+                        <h2>Puppy lovers Web-page</h2>
+                    </a>
+                    <a href="https://ace-meklit.netlify.app/" id="sliderImg3" title="ACE meklit Web-site"
+                        target="blank">
+                        <h2>ACE meklit Web-site</h2>
+                    </a>
+                    <a href="https://beamish-pavlova-feadd8.netlify.app/" id="sliderImg4"
+                        title="Personal Portfolio Website" target="blank">
+                        <h2></h2>
+                    </a>
+                    <a href="#" id="sliderImg5" title="Snake Game"></a>
+                    <a href="#" id="sliderImg6" title="Student Registration Web-App"></a>
+
+                </div>
+                <div class="projectButtonHolder">
+                    <a href="#sliderImg1" class="button"></a>
+                    <a href="#sliderImg2" class="button"></a>
+                    <a href="#sliderImg3" class="button"></a>
+                    <a href="#sliderImg4" class="button"></a>
+                    <a href="#sliderImg5" class="button"></a>
+                    <a href="#sliderImg6" class="button"></a>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <!-- Contact Me page -->
+    <section class="contact" id="contact">
+        <div class="heading">
+            <h2>Let's <span class="spn">Get In Touch!</span></h2>
+            <p class="contactDescription">Ready to start your next project with us? Let's build something <span
+                    class="spn">together</span>. Send us a messages and we will
+                get back to you as soon as <span class="spn">possible!</span></p>
+        </div>
+        <form action="#" id="form">
+            <div class="inputBox">
+                <div class="inputField">
+                    <input type="text" placeholder="Full Name" required>
+                    <span class="focus"></span>
+                </div>
+            </div>
+            <div class="inputBox">
+                <div class="inputField">
+                    <input type="email" placeholder="Email Address" required>
+                    <span class="focus"></span>
+                </div>
+            </div>
+
+            <div class="textareaField">
+                <textarea name="" id="" cols="30" rows="5" placeholder="Your Messages" required></textarea>
+                <span class="focus"></span>
+            </div>
+
+            <div class="btnBox btns">
+                <button type="submit" class="btn">Submit</button>
+            </div>
+
+        </form>
+    </section>
+
+    <!-- Footer part -->
+    <footer class="footer">
+        <div class="footerText">
+            <p>Copyright &copy; 2026 by peter | All Right Reserved</p>
+        </div>
+
+        <div class="footerIconTop">
+            <a href="#"><span class="i">&uparrow;</span></a>
+        </div>
+    </footer>
+    <script src="JAVASCRIPT/script.js"></script>
+
+</body>
+
+</html>
