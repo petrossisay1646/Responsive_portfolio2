@@ -1,78 +1,133 @@
-# Resposive-Portfolio
+# 🌐 Personal Portfolio Website
 
-# 📁 Personal Portfolio — Petros Sisay
-
-**Live Demo:** [https://beamish-pavlova-feadd8.netlify.app/](https://beamish-pavlova-feadd8.netlify.app/)
-
-A clean and modern personal portfolio webpage built using **only HTML & CSS** to showcase my skills, projects, and contact information as an aspiring full-stack web developer.
+A modern, responsive personal portfolio website built using **HTML, CSS, and JavaScript**.
+This project showcases my skills, projects, and contact information with a clean UI and interactive user experience.
 
 ---
 
-## 📌 Table of Contents
+## 📌 Features
 
-* 🔍 About the Project
-* 🚀 Features
-* 🛠️ Built With
-* 🧠 Developer Profile
-* ⭐ Skills Overview
-* 💼 Projects Showcase
-* 📩 Contact
-
----
-
-## 🔍 About the Project
-
-This is a **responsive portfolio website** built from scratch to present my professional profile, skills, and project work clearly and attractively. The site demonstrates a strong foundation in front-end development using semantic HTML and clean, modern CSS styling.
+* ✅ Responsive design (mobile, tablet, desktop)
+* ✅ Interactive navigation menu (hamburger toggle)
+* ✅ Smooth scrolling between sections
+* ✅ Active section highlighting (Scroll Spy)
+* ✅ Dynamic navbar background on scroll
+* ✅ Contact form validation (JavaScript)
+* ✅ Animated UI elements and transitions
+* ✅ Project showcase section with slider
 
 ---
 
-## 🚀 Features
+## 🛠️ Technologies Used
 
-✔ Fully responsive layout
-✔ Clean and minimal design aesthetic
-✔ Navigation bar with smooth scrolling
-✔ Sections include: Home, About, Skills, Projects, Contact
-✔ Custom styled HTML & CSS — *no frameworks used*
-✔ Contact form placeholder ready for future backend integration
-✔ Copyright footer
-✔ Static deploy on a modern hosting platform
+* **HTML5** – Structure of the website
+* **CSS3** – Styling, animations, and responsiveness
+* **JavaScript (Vanilla JS)** – Interactivity and DOM manipulation
 
 ---
 
-## 🛠️ Built With
+## 📂 Project Structure
 
-* **HTML5** – for webpage structure
-* **CSS3** – for styling and layout
-* (Hosted live on Netlify — static deployment) ([https://beamish-pavlova-feadd8.netlify.app/])
+```
+project-folder/
+│
+├── index.html
+├── CSS/
+│   └── style.css
+├── images/
+│   ├── Skills/
+│   └── projects/
+├── script.js
+└── README.md
+```
 
 ---
 
-## 🧠 Developer Profile
+## 🚀 How It Works
+
+### 🔹 Navigation Menu
+
+* Mobile menu uses a **hamburger icon**
+* Click to open/close menu
+* Hover behavior removed for better UX
+* Automatically closes when a menu item is selected
+
+### 🔹 Scroll Behavior
+
+* Navbar changes color after scrolling
+* Active menu link updates based on current section
+
+### 🔹 Form Validation
+
+* Prevents submission if fields are empty
+* Highlights invalid inputs
+* Provides user feedback
+
+---
+
+## 📱 Responsive Design
+
+* Uses **media queries** for different screen sizes
+* Optimized layout for mobile devices
+* Dropdown menu appears under the menu icon
+
+---
+
+## 🎯 Sections Included
+
+* Home
+* About
+* Skills
+* Projects
+* Contact
+
+---
+
+## ⚙️ Setup Instructions
+
+1. Clone the repository:
+
+   ```bash
+   git clone https://github.com/your-username/your-repo-name.git
+   ```
+
+2. Open the project folder:
+
+   ```bash
+   cd your-repo-name
+   ```
+
+3. Run the project:
+
+   * Open `index.html` in your browser
+
+---
+
+## ✨ Future Improvements
+
+* Add backend (PHP/MySQL) for contact form
+* Dark/Light mode toggle
+* Advanced animations (GSAP / Framer Motion)
+* Project filtering system
+* Blog section integration
+
+---
+
+## 👨‍💻 Author
 
 **Petros Sisay**
-Third-year Software Engineering student passionate about web development. I focus on creating dynamic, responsive, and user-friendly web interfaces. I enjoy exploring new technologies, solving coding challenges, and building projects that demonstrate both front-end and back-end capabilities.
+Software Engineering Student | Web Developer
 
 ---
 
-## ⭐ Skills Overview
+## 📄 License
 
-I include a snapshot of my technical strengths here:
-
-* **HTML** – Semantic structuring of content
-* **CSS** – Layout, styling, visual design
-* **Responsive Design** – Layouts that adapt across devices
-* **Core JavaScript concepts** *(prepared for future additions)*
-* Front-end frameworks and backend systems (React.js, Node.js, etc.) — future skills I’m expanding on.
----
-
-## 💼 Projects Showcase
-
-Some projects I’ve worked on are listed on the portfolio site in the Projects section. These demonstrate real-world work on websites and applications.
+This project is open-source and available under the **MIT License**.
 
 ---
 
-## 📩 Contact
+## 💡 Acknowledgment
 
-If you’d like to work together or discuss opportunities, I’d love to hear from you!
-The Contact section includes a simple form layout ready for backend integration.
+This project was built as part of learning and practicing modern web development techniques.
 
+---
