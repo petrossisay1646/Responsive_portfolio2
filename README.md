@@ -1,32 +1,29 @@
-# 🌐 Personal Portfolio Website
+ 🌐 Personal Portfolio Website
 
 A modern, responsive personal portfolio website built using **HTML, CSS, and JavaScript**.
 This project showcases my skills, projects, and contact information with a clean UI and interactive user experience.
 
----
 
-## 📌 Features
+ 📌 Features
 
-* ✅ Responsive design (mobile, tablet, desktop)
-* ✅ Interactive navigation menu (hamburger toggle)
-* ✅ Smooth scrolling between sections
-* ✅ Active section highlighting (Scroll Spy)
-* ✅ Dynamic navbar background on scroll
-* ✅ Contact form validation (JavaScript)
-* ✅ Animated UI elements and transitions
-* ✅ Project showcase section with slider
+ ✅ Responsive design (mobile, tablet, desktop)
+ ✅ Interactive navigation menu (hamburger toggle)
+ ✅ Smooth scrolling between sections
+ ✅ Active section highlighting (Scroll Spy)
+ ✅ Dynamic navbar background on scroll
+ ✅ Contact form validation (JavaScript)
+ ✅ Animated UI elements and transitions
+ ✅ Project showcase section with slider
 
----
 
-## 🛠️ Technologies Used
+🛠️ Technologies Used
 
-* **HTML5** – Structure of the website
-* **CSS3** – Styling, animations, and responsiveness
-* **JavaScript (Vanilla JS)** – Interactivity and DOM manipulation
+HTML5 – Structure of the website
+CSS3 – Styling, animations, and responsiveness
+JavaScript (Vanilla JS) – Interactivity and DOM manipulation
 
----
 
-## 📂 Project Structure
+📂 Project Structure
 
 ```
 project-folder/
@@ -41,60 +38,56 @@ project-folder/
 └── README.md
 ```
 
----
 
-## 🚀 How It Works
+ 🚀 How It Works
 
-### 🔹 Navigation Menu
+🔹 Navigation Menu
 
-* Mobile menu uses a **hamburger icon**
-* Click to open/close menu
-* Hover behavior removed for better UX
-* Automatically closes when a menu item is selected
+ Mobile menu uses a **hamburger icon**
+ Click to open/close menu
+ Hover behavior removed for better UX
+ Automatically closes when a menu item is selected
 
-### 🔹 Scroll Behavior
+ 🔹 Scroll Behavior
 
-* Navbar changes color after scrolling
-* Active menu link updates based on current section
+ Navbar changes color after scrolling
+ Active menu link updates based on current section
 
-### 🔹 Form Validation
+ 🔹 Form Validation
 
-* Prevents submission if fields are empty
-* Highlights invalid inputs
-* Provides user feedback
+ Prevents submission if fields are empty
+ Highlights invalid inputs
+ Provides user feedback
 
----
 
-## 📱 Responsive Design
+📱 Responsive Design
 
-* Uses **media queries** for different screen sizes
-* Optimized layout for mobile devices
-* Dropdown menu appears under the menu icon
+ Uses "media queries" for different screen sizes
+ Optimized layout for mobile devices
+ Dropdown menu appears under the menu icon
 
----
 
-## 🎯 Sections Included
+ 🎯 Sections Included
 
-* Home
-* About
-* Skills
-* Projects
-* Contact
+ Home
+ About
+ Skills
+ Projects
+ Contact
 
----
 
-## ⚙️ Setup Instructions
+ ⚙️ Setup Instructions
 
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/your-username/your-repo-name.git
+   git clone [https://github.com/your-username/your-repo-name.git](https://github.com/petrossisay1646/Responsive_portfolio2.git)
    ```
 
 2. Open the project folder:
 
    ```bash
-   cd your-repo-name
+   cd Responsive_portfolio2
    ```
 
 3. Run the project:
@@ -103,26 +96,25 @@ project-folder/
 
 ---
 
-## ✨ Future Improvements
+ ✨ Future Improvements
 
-* Add backend (PHP/MySQL) for contact form
-* Dark/Light mode toggle
-* Advanced animations (GSAP / Framer Motion)
-* Project filtering system
-* Blog section integration
+ Add backend (PHP/MySQL) for contact form
+ Dark/Light mode toggle
+ Advanced animations (GSAP / Framer Motion)
+ Project filtering system
+ Blog section integration
 
----
 
-## 👨‍💻 Author
 
-**Petros Sisay**
+ 👨‍💻 Author
+
+"Petros Sisay"
 Software Engineering Student | Web Developer
 
----
 
-## 📄 License
+ 📄 License
 
-This project is open-source and available under the **MIT License**.
+This project is open-source and available under the "MIT License".
 
 ---
 
