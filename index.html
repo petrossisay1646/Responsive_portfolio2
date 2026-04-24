@@ -181,30 +181,35 @@
                     class="spn">together</span>. Send us a messages and we will
                 get back to you as soon as <span class="spn">possible!</span></p>
         </div>
-        <form action="#" id="form">
-            <div class="inputBox">
-                <div class="inputField">
-                    <input type="text" placeholder="Full Name" required>
-                    <span class="focus"></span>
-                </div>
-            </div>
-            <div class="inputBox">
-                <div class="inputField">
-                    <input type="email" placeholder="Email Address" required>
-                    <span class="focus"></span>
-                </div>
-            </div>
+       <form id="form" action="#">
+    
+    <div class="inputBox">
+        <div class="inputField">
+            <input type="text" id="name" placeholder="Full Name">
+            <span class="focus"></span>
+            <small class="error"></small> <!-- ✅ error message -->
+        </div>
+    </div>
 
-            <div class="textareaField">
-                <textarea name="" id="" cols="30" rows="5" placeholder="Your Messages" required></textarea>
-                <span class="focus"></span>
-            </div>
+    <div class="inputBox">
+        <div class="inputField">
+            <input type="email" id="email" placeholder="Email Address">
+            <span class="focus"></span>
+            <small class="error"></small> <!-- ✅ -->
+        </div>
+    </div>
 
-            <div class="btnBox btns">
-                <button type="submit" class="btn">Submit</button>
-            </div>
+    <div class="textareaField">
+        <textarea id="message" cols="30" rows="5" placeholder="Your Messages"></textarea>
+        <span class="focus"></span>
+        <small class="error"></small> <!-- ✅ -->
+    </div>
 
-        </form>
+    <div class="btnBox btns">
+        <button type="submit" class="btn">Submit</button>
+    </div>
+
+</form>
     </section>
 
     <!-- Footer part -->
