@@ -1,133 +1,109 @@
-# Resposive-Portfolio
+🌐 Personal Portfolio Website
 
-# 📁 Personal Portfolio — Petros Sisay
+---
+🚀 Live Demo
 
-**Live Demo:** [https://responsive-portfolio2.vercel.app](http://responsive-portfolio2.vercel.app) ](https://http://responsive-portfolio2.vercel.app  )
-
-A clean and modern personal portfolio webpage built using **only HTML & CSS** to showcase my skills, projects, and contact information as an aspiring full-stack web developer.
+🔗 View Website: [https://your-live-demo-link.com](http://responsive-portfolio2.vercel.app)
 
 ---
 
-A modern, responsive personal portfolio website built using **HTML, CSS, and JavaScript**.
-This project showcases my skills, projects, and contact information with a clean UI and interactive user experience.
+📌 Overview
 
+This is a modern, responsive personal portfolio website built using HTML, CSS, and JavaScript.
+It showcases my skills, projects, and contact information with a clean UI and interactive features.
 
- 📌 Features
+---
 
- ✅ Responsive design (mobile, tablet, desktop)
- ✅ Interactive navigation menu (hamburger toggle)
- ✅ Smooth scrolling between sections
- ✅ Active section highlighting (Scroll Spy)
- ✅ Dynamic navbar background on scroll
- ✅ Contact form validation (JavaScript)
- ✅ Animated UI elements and transitions
- ✅ Project showcase section with slider
+✨ Features
 
+- 📱 Fully responsive design
+- 🍔 Hamburger menu (click toggle, no hover issues)
+- 🎯 Active navigation highlight (scroll spy)
+- 🎨 Dynamic navbar color on scroll
+- 🧾 Contact form validation
+- ⚡ Smooth scrolling experience
+- 🎞️ Animated UI components
+- 🧩 Project showcase section
 
-🛠️ Technologies Used
+---
 
-HTML5 – Structure of the website
-CSS3 – Styling, animations, and responsiveness
-JavaScript (Vanilla JS) – Interactivity and DOM manipulation
+🛠️ Tech Stack
 
+Technology| Description
+HTML5| Structure of the website
+CSS3| Styling, layout, animations
+JavaScript| Interactivity & DOM manipulation
+
+---
 
 📂 Project Structure
 
-```
-project-folder/
+portfolio-website/
 │
 ├── index.html
+├── script.js
 ├── CSS/
 │   └── style.css
 ├── images/
 │   ├── Skills/
 │   └── projects/
-├── script.js
 └── README.md
-```
-
-
- 🚀 How It Works
-
-🔹 Navigation Menu
-
- Mobile menu uses a **hamburger icon**
- Click to open/close menu
- Hover behavior removed for better UX
- Automatically closes when a menu item is selected
-
- 🔹 Scroll Behavior
-
- Navbar changes color after scrolling
- Active menu link updates based on current section
-
- 🔹 Form Validation
-
- Prevents submission if fields are empty
- Highlights invalid inputs
- Provides user feedback
-
-
-📱 Responsive Design
-
- Uses "media queries" for different screen sizes
- Optimized layout for mobile devices
- Dropdown menu appears under the menu icon
-
-
- 🎯 Sections Included
-
- Home
- About
- Skills
- Projects
- Contact
-
-
- ⚙️ Setup Instructions
-
-1. Clone the repository:
-
-   ```bash
-   git clone [https://github.com/your-username/your-repo-name.git](https://github.com/petrossisay1646/Responsive_portfolio2.git)
-   ```
-
-2. Open the project folder:
-
-   ```bash
-   cd Responsive_portfolio2
-   ```
-
-3. Run the project:
-
-   * Open `index.html` in your browser
 
 ---
 
- ✨ Future Improvements
+⚙️ Installation & Usage
 
- Add backend (PHP/MySQL) for contact form
- Dark/Light mode toggle
- Advanced animations (GSAP / Framer Motion)
- Project filtering system
- Blog section integration
+1. Clone the repository
 
+git clone https://github.com/petrossisay1646/Responsive_portfolio2.git
 
+2. Navigate to project folder
 
- 👨‍💻 Author
+cd your-repo-name
 
-"Petros Sisay"
-Software Engineering Student | Web Developer
+3. Open in browser
 
-
- 📄 License
-
-This project is open-source and available under the "MIT License".
+open index.html
 
 ---
 
-## 💡 Acknowledgment
+🔥 Key Functionalities
 
-This project was built as part of learning and practicing modern web development techniques.
+✅ Navigation Menu
+
+- Click-based toggle
+- Opens under hamburger icon
+- Auto-closes on selection
+
+✅ Scroll Behavior
+
+- Navbar changes background on scroll
+- Active section highlighted dynamically
+
+✅ Form Validation
+
+- Prevents empty submission
+- Highlights invalid inputs
+- User-friendly alert
+
+
+👨‍💻 Author
+
+Petros Sisay
+🎓 Software Engineering Student
+💻 Frontend & Full Stack Developer
 
 ---
+
+📬 Contact
+
+- 📧 Email: petrossisay1646@gmail.com
+- 💼 GitHub: https://github.com/petrossisay1646
+- 🌐 Portfolio: http://responsive-portfolio2.vercel.app
+
+---
+
+📄 License
+
+This project is licensed under the MIT License.
+
