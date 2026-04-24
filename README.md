@@ -3,7 +3,7 @@
 ---
 🚀 Live Demo
 
-🔗 View Website: [https://your-live-demo-link.com](http://responsive-portfolio2.vercel.app)
+🔗 View Website: [[https://your-live-demo-link.com](http://responsive-portfolio2.vercel.app)](http://responsive-portfolio2.vercel.app)
 
 ---
 
@@ -55,7 +55,7 @@ portfolio-website/
 
 1. Clone the repository
 
-git clone https://github.com/petrossisay1646/Responsive_portfolio2.git
+git clone [https://github.com/petrossisay1646/Responsive_portfolio2.git](https://github.com/petrossisay1646/Responsive_portfolio2.git)
 
 2. Navigate to project folder
 
