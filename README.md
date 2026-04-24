@@ -3,7 +3,7 @@
 ---
 🚀 Live Demo
 
-🔗 View Website: [[https://your-live-demo-link.com](http://responsive-portfolio2.vercel.app)](http://responsive-portfolio2.vercel.app)
+🔗 View Website: [(http://responsive-portfolio2.vercel.app)](http://responsive-portfolio2.vercel.app)
 
 ---
 
